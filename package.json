@@ -1,0 +1,24 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  CSS/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodriRodriguez7/entrega2RodriguezVidela.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodriRodriguez7/entrega2RodriguezVidela/issues"
+  },
+  "homepage": "https://github.com/RodriRodriguez7/entrega2RodriguezVidela#readme",
+  "dependencies": {
+    "sass": "^1.58.1"
+  }
+}
