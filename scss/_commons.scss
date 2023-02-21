@@ -60,54 +60,54 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+  
 
-  nav ul {
-    font-family: "Sofia Sans Extra Condensed", sans-serif;
-    display: flex;
-  }
+        ul {
+          font-family: "Sofia Sans Extra Condensed", sans-serif;
+          display: flex;
+        }
 
-  nav ul li {
-    font-family: "Sofia Sans Extra Condensed", sans-serif;
-    display: flex;
-  }
+          li {
+      font-family: "Sofia Sans Extra Condensed", sans-serif;
+      display: flex;
+            }
 
- nav ul li a {
-    font-family: "Sofia Sans Extra Condensed", sans-serif;
-    margin-left: 30px;
-    display: flex;
-    color: #0000ff;
-    text-decoration: none;
-    font-weight: $textL;
-    font-size: $textXl;
-    line-height: 55px;
-  }
-
+            a {
+                font-family: "Sofia Sans Extra Condensed", sans-serif;
+                margin-left: 30px;
+                display: flex;
+                color: #0000ff;
+                text-decoration: none;
+                font-weight: $textL;
+                font-size: $textXl;
+                line-height: 55px;
+              }
+}
 
   footer {
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     background-color: $bcolorfooter;
-}
- footer ul {
+
+      ul {
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     list-style: none;
   }
 
-  footer ul li {
-    font-family: "Sofia Sans Extra Condensed", sans-serif;
-   display: inline-block;
-    margin: $textSm;
-  }
+        li {
+          font-family: "Sofia Sans Extra Condensed", sans-serif;
+          display: inline-block;
+          margin: $textSm;
+          }
   
- footer ul li a {
-    display: inline-block;
-    color: $keycolor;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: $textMd;
-    line-height: 30px;
-  }
-
+            a {
+            display: inline-block;
+            color: $keycolor;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: $textMd;
+            line-height: 30px;
+            }
+}
 
 
   a:hover {
