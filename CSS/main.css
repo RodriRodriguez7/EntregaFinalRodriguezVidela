@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,100&display=swap");
+header {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-size: 3.5rem;
+  color: #0083a6;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #0083a6;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #0083a6;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #000000;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #0083a6;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+label {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #0083a6;
+  font-weight: 700;
+  font-size: 2.5rem;
+  display: block;
+}
+
+nav {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  background-color: rgba(241, 241, 241, 0.88);
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  display: flex;
+}
+
+nav ul li {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  display: flex;
+}
+
+nav ul li a {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  margin-left: 30px;
+  display: flex;
+  color: #0000ff;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 55px;
+}
+
+footer {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  background-color: rgba(118, 138, 140, 0.5);
+}
+
+footer ul {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  list-style: none;
+}
+
+footer ul li {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  display: inline-block;
+  margin: 1.5rem;
+}
+
+footer ul li a {
+  display: inline-block;
+  color: #0083a6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 30px;
+}
+
+a:hover {
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.99);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 25px rgba(255, 255, 255, 0);
+  }
+  100% {
+    transform: scale(0.99);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+.contenedor {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  padding-left: 35px;
+  padding-top: 10px;
+}
+
+.botonera ul li a {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-size: 3rem;
+  color: #0083a6;
+  font-weight: 900;
+  line-height: 55px;
+  margin-right: 40px;
+}
+
+.img-center {
+  margin: 0;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.contenedor2 {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  display: flow-root;
+  padding: 20px;
+  align-items: center;
+  list-style-type: circle;
+}
+
+.form {
+  width: 28.125rem;
+  margin: auto;
+  padding: 0.625rem 1.25rem;
+  box-sizing: border-box;
+  margin-top: 1.25rem;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+}/*# sourceMappingURL=main.css.map */

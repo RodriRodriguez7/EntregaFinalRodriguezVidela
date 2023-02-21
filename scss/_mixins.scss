@@ -1,0 +1,9 @@
+@mixin color-align-padding-font-font-weight($center){
+    color: #0083a6;
+    text-align: $center;
+    padding-inline-end: 1.25rem;
+    font-size: 3rem;
+    padding: 1.875rem;
+    font-family: $letra;
+    font-weight: 400;
+    }
